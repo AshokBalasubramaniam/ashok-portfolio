@@ -11,7 +11,7 @@ export const profile = {
   location: "Chennai, Tamil Nadu, India",
   email: "ashokbalu9677@gmail.com",
   phone: "+91 6374946050",
-  resumeUrl: "/Ashok_Balasubramaniam_Resume.pdf",
+  resumeUrl: `${import.meta.env.BASE_URL}Ashok_Balasubramaniam_Resume.pdf`,
   social: {
     github: "https://github.com/AshokBalasubramaniam",
     // TODO: add your LinkedIn profile URL here
