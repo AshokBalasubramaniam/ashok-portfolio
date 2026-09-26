@@ -23,7 +23,7 @@ import {
 } from "react-icons/fi";
 import { profile } from "./profile";
 import mapzhaImage from "../assets/mapzha.png";
-import medicinedonorImage from "../assets/medicinedonor.png";
+import medicinedonorImage from "../assets/medicine_donor_image.png";
 // `categories` drives the filter bar; the first entry is shown as the card badge.
 // `image` is a real screenshot; when null, `visual` picks a generated preview
 // ("dashboard" for web apps, "terminal" for backend/automation services).
@@ -263,6 +263,13 @@ export const projects = [
   },
 ];
 
-export const projectFilters = ["All", "Full Stack", "Frontend", "Backend", "Mobile", "Automation"];
+export const projectFilters = [
+  "All",
+  "Full Stack",
+  "Frontend",
+  "Backend",
+  "Mobile",
+  "Automation",
+];
 
 export const featuredProject = projects.find((p) => p.featured) ?? projects[0];
